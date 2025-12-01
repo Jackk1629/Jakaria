@@ -1,0 +1,1 @@
+let db = JSON.parse(localStorage.getItem('db')||'{"works":[]}'); function saveDB(){localStorage.setItem('db',JSON.stringify(db));}
